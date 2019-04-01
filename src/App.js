@@ -18,6 +18,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.props.store);
     // debugger;
     return (
       <div className="App">
